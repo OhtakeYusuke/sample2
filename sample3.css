@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+}
+
+.wrapper{
+  width: 100%;
+  margin: 0 auto;
+  height: 1000px;
+  background-color: lightslategray;
+}
+
+.semi-circle{
+  width: 100px;
+  height: 100px;
+  border: 3px solid seagreen;
+  border-bottom: transparent;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: -50px;
+  background-color: seagreen;
+  z-index: 10;
+}
+.frame{
+  width: 75%;
+  height: 300px;
+  border: 2px solid seagreen;
+  margin: 0 auto;
+}
